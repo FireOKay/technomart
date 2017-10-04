@@ -1,0 +1,25 @@
+header {
+	display: inline;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logotype {
+	float: left;
+	margin: 0 130px;
+	height: 47px;
+	width: 220px;
+}
+
+.header_navigation {
+	float: right;
+}
