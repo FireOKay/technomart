@@ -1,10 +1,6 @@
-header {
-	display: inline;
-}
-
 li {
+    display: inline; /* Отображать как строчный элемент */
 	list-style-type: none;
-	display: inline;
 	margin: 0;
 	padding-left: 0;
 }
@@ -13,63 +9,270 @@ a {
 	text-decoration: none;
 }
 
-/*===================================HEADER=====================================================*/
+ul {
+	padding: 0px;
+}
 
-.logotype {
-	position: relative;
+.clear_fix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+
+
+/*==========================================HEADER==============================================================*/
+
+.main_navigation_list {
 	float: left;
-	margin: 0 130px;
-	height: 47px;
+	width: 460px;
+}
+
+.purchase {
+	float: right;
+	width: 460px;
+}
+/*===================================INFO ABOUT AND LOG IN=====================================================*/
+
+.header_information_about {
+	width: 300px;
+	float: left;
+	background-color: red;
+	margin-right: 20px;
+	min-height: 112px;
+}
+
+.header_inner_info {
+	width: 300px;
+	float: left;
+	background-color: green;
+	min-height: 112px;
+}
+
+.user_login {
+	width: 300px;
+	float: right;
+	background-color: yellow;
+	min-height: 112px;
+}
+
+.header_information {
+	margin-top: 46px;
+}
+
+/*===================================MAIN_NAVIGATION=====================================================*/
+
+.my_menu {
+	width: 940px;
+	height: 60px;
+	float: left;
+	margin-bottom: 119px;
+	margin-top: 40px;
+	background-color: grey;
+}
+
+/*======================================CONTENT==================================================*/
+
+
+.features_item_1 {
+	width: 300px;
+	height: 124px;
+	float: left;
+	margin-right: 20px;
+	background-color: yellow;
+}
+
+.features_item_2 {
+	width: 300px;
+	height: 124px;
+	float: left;
+	margin-right: 20px;
+	background-color: grey;
+}
+
+.features_item_3 {
+	width: 300px;
+	height: 124px;
+	float: right;
+	background-color: red;
+}
+
+.features_item_4 {
+	width: 300px;
+	height: 124px;
+	float: right;
+	background-color: red;
+	margin-top: 20px;
+}
+
+.features_item_5 {
+	width: 300px;
+	height: 124px;
+	float: right;
+	background-color: red;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.slide {
+	width: 620px;
+	height: 268px;
+	float: left;
+	margin-top: 20px;
+	background-color: black;
+	margin-bottom: 20px;
+}
+
+
+
+/*===================================POPULAR ITEMS=====================================================*/
+
+.popular_items {
+	width: 940px;
+	height: 90px;
+}
+
+.popular_items_title {
+	width: 620px;
+	float: left;
+	background-color: red;
+	margin-bottom: 26px;
+}
+
+.popular_items_btn {
+	width: 320px;
+	height: 67px;
+	float: right;
+	background-color: red;
+	margin-bottom: 26px;
+}
+
+
+.inner_product_1 {
+	float: left;
 	width: 220px;
-	bottom: 8px;
+	height: 320px;
+	margin-right: 20px;
+	background-color: brown;
+	margin-bottom: 20px;
 }
 
-.logotype_text {
-	position: absolute;
-	margin: 0px;
-	top: 0px;
-	left: 185px;
-	font-size: 24px;
-	text-transform: uppercase;
+.inner_product_2 {
+	float: left;
+	width: 220px;
+	height: 320px;
+	margin-right: 20px;
+	background-color: brown;
+	margin-bottom: 20px;
 }
 
-.header_navigation {
+.inner_product_3 {
+	float: left;
+	width: 220px;
+	height: 320px;
+	margin-right: 20px;
+	background-color: brown;
+	margin-bottom: 20px;
+}
+
+.inner_product_4 {
 	float: right;
-	margin-right: 130px;
+	width: 220px;
+	height: 320px;
+	background-color: brown;
+	margin-bottom: 20px;
 }
 
-ul>li {
-	margin: 0px;
-	padding: 52px;
-	margin-bottom: 10px;
+.popular_producers_title {
+	float: left;
+	width: 620px;
+	height: 90px;
+	margin-bottom: 20px;
+	background-color: green;
 }
 
-ul>li.checkout {
-	margin: -2px;
-}
-
-.checkout_img {
-	position: absolute;
+.popular_producers_btn {
 	float: right;
-	right: 175px;
-	top: 0px;
+	width: 320px;
+	height: 90px;
+	margin-bottom: 20px;
+	background-color: green;
 }
 
-.checkout_text {
-	position: relative;
-	font-size: 17px;
+.popular_producers_logo_1 {
+	float: left;
+	background-color: red;
+	width: 220px;
+	height: 145px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
+.popular_producers_logo_2 {
+	float: left;
+	background-color: green;
+	width: 220px;
+	height: 145px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
 
+.popular_producers_logo_3 {
+	float: left;
+	background-color: gray;
+	width: 220px;
+	height: 145px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.popular_producers_logo_4 {
+	float: right;
+	background-color: black;
+	width: 220px;
+	height: 145px;
+	margin-bottom: 20px;
+}
+
+.popular_producers_logo_5 {
+	float: left;
+	background-color: yellow;
+	width: 220px;
+	height: 145px;
+	margin-right: 20px;
+}
+
+.popular_producers_logo_6 {
+	float: left;
+	background-color: orange;
+	width: 220px;
+	height: 145px;
+	margin-right: 20px;
+}
+
+.popular_producers_logo_7 {
+	float: left;
+	background-color: purple;
+	width: 220px;
+	height: 145px;
+	margin-right: 20px;
+}
+
+.popular_producers_logo_8 {
+	float: right;
+	background-color: brown;
+	width: 220px;
+	height: 145px;
+}
 /*===================================HEADER=====================================================*/
 
-/*===================================HEADER=====================================================*/
 
-/*===================================HEADER=====================================================*/
-
-/*===================================HEADER=====================================================*/
-
-/*===================================HEADER=====================================================*/
 
 /*===================================HEADER=====================================================*/
 

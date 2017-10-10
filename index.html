@@ -2,31 +2,30 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
+    	<link rel="stylesheet" href="style.css">
 		<title>Техномарт</title>
 	</head>
 	<body>
-		<header>
-			<div class="containter">
-				<div class="header_top_nav">
-					<div class="logo">
-						<a href="#">Техномарт</a>
-					</div>
-					<div class="search">
-						<input type="search" name="search" placeholder="Поиск:">
-					</div>
-					<div class="share">
-						<a href="#">Закладки: 0</a>
-					</div>
-					<div class="basket">
-						<a href="#">Корзина</a>
-					</div>
-					<a href="#" class="btn_order">Оформить заказ</a>
-				</div>
+		<header class="main_header">
+			<div class="container clear_fix">
+				<nav class="main_navigation">
+					<ul class="main_navigation_list">
+						<li class="logo"><a href="#">Техномарт</a></li>
+						<li class="search"><input type="search" name="search" placeholder="Поиск:"></li>
+					</ul>
+					<ul class="purchase">
+						<li class="bookmarks"><a href="#">Закладки: 0</a></li>
+						<li class="basket"><a href="#">Корзина</a></li>
+						<li class="purchase_accept"><a href="#" class="btn_order">Оформить заказ</a></li>
+					</ul>	
+				</nav>	
 			</div>
 
 			<div class="container">
 				<div class="header_information">
-					<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+					<div class="header_information_about">
+						<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+					</div>
 					<div class="header_inner_info">
 						<h2 class="phone_number">+7 (495) 555-05-55</h2>
 						<p>Москва, ул. Строителей, д.15</p>
@@ -36,7 +35,6 @@
 						<a href="#" class="registration">Регистрация</a>
 					</div>
 				</div>
-
 				<nav class="my_menu">
 					<ul>
 						<li><a href="#">Главная</a></li>
@@ -61,101 +59,199 @@
 							<a href="#" class="btn features_item_btn">На любой вкус</a>
 							<img src="#" alt="" class="flag_red_new">
 						</div>
-						<div class="features_item_1">
+						<div class="features_item_2">
 							<img src="#" alt="" class="logo_content_1">
 							<h2>Инструмент</h2>
 							<a href="#" class="btn features_item_btn">На все случаи</a>
 						</div>
-						<div class="features_item_1">
+						<div class="features_item_3">
 							<img src="#" alt="" class="logo_content_1">
 							<h2>Техника</h2>
 							<a href="#" class="btn features_item_btn">Для стройки</a>
 						</div>
-						<div class="features_item_1">
+						<div class="features_item_4">
 							<img src="#" alt="" class="logo_content_1">
 							<h2>Скидки 50%</h2>
 							<a href="#" class="btn features_item_btn">На 350 товаров</a>
 						</div>
-						<div class="features_item_1">
+						<div class="slider">
+							<div class="slide">
+								<img src="#">
+								<h2>Перфораторы</h2>
+								<p>Настоящие мужские игрушки</p>
+								<a href="#" class="btn btn_open_catalog">Открыть каталог</a>
+							</div>
+						</div>
+						<div class="features_item_5">
 							<img src="#" alt="" class="logo_content_1">
 							<h2>Доставка</h2>
 							<a href="#" class="btn features_item_btn">Бесплатно</a>
 						</div>
+					</div>
+					<div class="popular_items">
+						<div class="popular_items_title">
+							<h2>Популярные товары</h2>
+						</div>
+						<div class="popular_items_btn">
+							<a href="#" class="btn btn_popular_items">Все популярные товары</a>
+						</div>
+					</div>
+					<div class="inner_catalog_items">
+						<div class="inner_product_1">
+							<img src="#" width="" height="">
+							<h4>Перфоратор BOSH BFG 9000</h4>
+							<div class="discont">32 500 Р.</div>
+							<div class="price">25 000 Р.</div>
+							<div class="active">
+								<a href="#" class="buy">Купить</a>
+								<a href="#" class="bookmark">В закладки</a>
+							</div>	
+						</div>
+						<div class="inner_product_2">
+							<img src="#" width="" height="">
+							<h4>Перфоратор BOSH BFG 6000</h4>
+							<div class="discont">32 500 Р.</div>
+							<div class="price">25 000 Р.</div>
+							<div class="active">
+								<a href="#" class="buy">Купить</a>
+								<a href="#" class="bookmark">В закладки</a>
+							</div>	
+						</div>
+						<div class="inner_product_3">
+							<img src="#" width="" height="">
+							<h4>Перфоратор BOSH BFG 3000</h4>
+							<div class="discont">32 500 Р.</div>
+							<div class="price">25 000 Р.</div>
+							<div class="active">
+								<a href="#" class="buy">Купить</a>
+								<a href="#" class="bookmark">В закладки</a>
+							</div>	
+						</div>
+						<div class="inner_product_4">
+							<img src="#" width="" height="">
+							<h4>Перфоратор BOSH BFG 1000</h4>
+							<div class="discont">32 500 Р.</div>
+							<div class="price">25 000 Р.</div>
+							<div class="active">
+								<a href="#" class="buy">Купить</a>
+								<a href="#" class="bookmark">В закладки</a>
+							</div>	
+						</div>
+					</div>
+					<div class="popular_producers">
+						<div class="popular_producers_title">
+							<h2>Популярные товары</h2>
+						</div>
+						<div class="popular_producers_btn">
+							<a href="#" class="btn btn_popular_items">Все популярные товары</a>
+						</div>
+					</div>
+					<div class="inner_catalog_producers">
+						<img src="" alt="" class="popular_producers_logo_1">
+						<img src="" alt="" class="popular_producers_logo_2">
+						<img src="" alt="" class="popular_producers_logo_3">
+						<img src="" alt="" class="popular_producers_logo_4">
+						<img src="" alt="" class="popular_producers_logo_5">
+						<img src="" alt="" class="popular_producers_logo_6">
+						<img src="" alt="" class="popular_producers_logo_7">
+						<img src="" alt="" class="popular_producers_logo_8">
+					</div>
+				</div>
+			<div class="services_info">
+					<div class="top_info">
+						<h2>Сервисы</h2>
+						<p>Хороший интернет-магазин отличается от плохого не только ценами!<br/>
+						Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+					</div>
+					<div class="services_buttons">
+						<input type="radio" name="services_buttons" class="services_btn_1">
+						<input type="radio" name="services_buttons" class="services_btn_2">
+						<input type="radio" name="services_buttons" class="services_btn_3">
+					</div>
 
-						<div class="slider">
-							<input type="radio" class="btn-1" name="toggle" checked>
-							<input type="radio"," class="btn-2" name="toggle">
-							<a href="#" class="btn_slider btn_slider_left"></a>
-							<a href="" class="btn_slider btn_slider_right"></a>
-							<div class="slides">
-								<div class="silder_text">
-									<h2>Дрели</h2>
-									<p>Соседям на радость!</p>
-								</div>
-								<a href="#" class="btn btn_open_catalog">Открыть каталог</a>
-								<img src="#" width="620" height="270">
-								</div>
-							<div class="slide">
-								<div class="slider_text">
-									<h2>Перфораторы</h2>
-									<p>Настоящие мужские игрушки</p>
-								</div>
-								<a href="#" class="btn btn_open_catalog">Открыть каталог</a>
-								<img src="#" width="620" height="270">
-							</div>
+					<div class="services_buttons_info">
+						<div class="services_btn_1_info">
+							<h2>Доставка</h2>
+							<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем</p>
+							<img src="" alt="" class="services_btn_1_img">
+						</div>
+						<div class="services_btn_2_info">
+							<h2>Гарантия</h2>
+							<p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
+							<img src="" alt="" class="services_btn_2_img">
+						</div>
+						<div class="services_btn_3_info">
+							<h2>Кредит</h2>
+							<p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+							<img src="" alt="" class="services_btn_2_img">
 						</div>
 					</div>
 				</div>
-
-				<div class="popular_items">
-					<div class="popular_items_title">
-						<h2>Популярные товары</h2>
-						<a href="#" class="btn btn_popular_items">Все популярные товары</a>
+				<div class="details_about_company">
+					<div class="details_about_company_left">
+						<h2>Компания "Техномарт"</h2>
+						<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
+						<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
+						<ul class="lines">
+							<li>Деловые линии</li>
+							<li>Автотрейдниг</li>
+							<li>ЖелДорЭкспедиция</li>
+						</ul>
+						<a href="#" class="details_about_company_btn">Подробнее о компании</a>
 					</div>
-					<div class="inner_catalog">
-						<div class="inner_product">
-							<img src="#" width="" height="">
-							<h2>Перфоратор BOSH BFG 9000</h2>
-							<div class="discont">32 500 Р.</div>
-							<div class="price">25 000 Р.</div>
-							<div class="active">
-								<a href="#" class="buy">Купить</a>
-								<a href="#" class="bookmark">В закладки</a>
-							</div>	
-						</div>
-						<div class="inner_product">
-							<img src="#" width="" height="">
-							<h2>Перфоратор BOSH BFG 9000</h2>
-							<div class="discont">32 500 Р.</div>
-							<div class="price">25 000 Р.</div>
-							<div class="active">
-								<a href="#" class="buy">Купить</a>
-								<a href="#" class="bookmark">В закладки</a>
-							</div>	
-						</div>
-						<div class="inner_product">
-							<img src="#" width="" height="">
-							<h2>Перфоратор BOSH BFG 9000</h2>
-							<div class="discont">32 500 Р.</div>
-							<div class="price">25 000 Р.</div>
-							<div class="active">
-								<a href="#" class="buy">Купить</a>
-								<a href="#" class="bookmark">В закладки</a>
-							</div>	
-						</div>
-						<div class="inner_product">
-							<img src="#" width="" height="">
-							<h2>Перфоратор BOSH BFG 9000</h2>
-							<div class="discont">32 500 Р.</div>
-							<div class="price">25 000 Р.</div>
-							<div class="active">
-								<a href="#" class="buy">Купить</a>
-								<a href="#" class="bookmark">В закладки</a>
-							</div>	
-						</div>
+					<div class="details_about_company_right">
+						<h2>Контакты</h2>
+						<p>Вы можете забрать товар сами, заехав в наш офис:</p>
+						<img src="#" class="details_about_company_map" width="300" height="157">
+						<a href="#" class="details_about_company_btn">Заблудились? Напишите нам!</a>
 					</div>
 				</div>
 			</div>
+		</div>
 		</main>
+
+		<!--	<footer>
+			<div class="container">
+				<div class="footer_top">
+					<div class="footer_top_left_info">
+						<a href="#" class="footer_logo">Техномарт</a>
+						<h2>г.Моксва, ул.Строителей, 15<br/>
+						+7 (495) 555-05-55</h2>
+					</div>
+					<div class="footer_top_right_info_top">
+						<a href="">Компания</a>
+						<a href="">Новости</a>
+						<a href="">Каталог</a>
+						<a href="">Доставка</a>
+						<a href="">Контакты</a>
+					</div>
+					<div class="footer_top_right_info_bottom">
+						<a href="">Материалы</a>
+						<a href="">Техника</a>
+						<a href="">Инструмент</a>
+						<a href="">Спецпредложения</a>
+					</div>
+				</div>
+				<div class="footer_bottom">
+					<div class="footer_bottom_left_info">
+						<h2>© 2010–2013 Компания «Техномарт»<br/>
+						Все права защищены</h2>
+					</div>
+					<div class="footer_bottom_center_social">
+						<a href="" class="socail_vk"></a>
+						<a href="" class="socail_fb"></a>
+						<a href="" class="socail_inst"></a>
+					</div>
+					<div class="footer_bottom_right_feedback">
+						<h2>Обратная связь:</h2>
+						<a href="#" class="feedback">info@techomart.ru</a>
+					</div>
+					<div class="footer_bottom_right_design">
+						<h2>Дизайн сайта - </h2>
+						<a href="#" class="footer_bottom_right_link">www.FireOK.ru</a>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
